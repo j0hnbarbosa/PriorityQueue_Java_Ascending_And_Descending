@@ -20,13 +20,13 @@ public class TranferenciaDeCaes_Interfatec_J_2018 {
     public static void main(String[] args) {
 
         PriorityQueue<Integer> ld = new PriorityQueue<>(new NumCom());
-        //LinkedList<Num> ld = new LinkedList<>();
+        
         ld.add(59);
         ld.add(60);
         ld.add(23);
         ld.add(99);
         ld.add(85);
-        // Collections.sort(ld, new NumCom());
+        
         while (!ld.isEmpty()) {
             System.out.printf("%d\n", ld.poll());
 
